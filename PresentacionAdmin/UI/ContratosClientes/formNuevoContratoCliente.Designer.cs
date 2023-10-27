@@ -28,32 +28,31 @@
         /// </summary>
         private void InitializeComponent()
         {
-            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions1 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
+            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions4 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(formNuevoContratoCliente));
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject1 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject2 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject3 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject4 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions2 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject5 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject6 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject7 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject8 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions3 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject9 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject10 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject11 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject12 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject13 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject14 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject15 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject16 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions5 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject17 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject18 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject19 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject20 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions6 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject21 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject22 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject23 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject24 = new DevExpress.Utils.SerializableAppearanceObject();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.btnImprimir = new FontAwesome.Sharp.IconButton();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.cbConfirmaInstalacion = new MaterialSkin.Controls.MaterialCheckbox();
-            this.tbAnotaciones = new MaterialSkin.Controls.MaterialMultiLineTextBox2();
+            this.btnCompletar = new FontAwesome.Sharp.IconButton();
+            this.materialMultiLineTextBox21 = new MaterialSkin.Controls.MaterialMultiLineTextBox2();
             this.tbDireccionCobro = new MaterialSkin.Controls.MaterialMultiLineTextBox2();
             this.tbDireccionContratacion = new MaterialSkin.Controls.MaterialMultiLineTextBox2();
-            this.tbNit = new MaterialSkin.Controls.MaterialTextBox();
-            this.btnCompletar = new FontAwesome.Sharp.IconButton();
+            this.materialTextBox1 = new MaterialSkin.Controls.MaterialTextBox();
             this.panel5 = new System.Windows.Forms.Panel();
             this.panelAviso = new System.Windows.Forms.Panel();
             this.iconoDisponilibidad = new FontAwesome.Sharp.IconPictureBox();
@@ -139,49 +138,29 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1284, 1005);
+            this.panel1.Size = new System.Drawing.Size(1200, 1005);
             this.panel1.TabIndex = 0;
             // 
             // panel6
             // 
-            this.panel6.Controls.Add(this.btnImprimir);
             this.panel6.Controls.Add(this.groupBox1);
-            this.panel6.Controls.Add(this.btnCompletar);
             this.panel6.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel6.Location = new System.Drawing.Point(0, 1246);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(1267, 596);
+            this.panel6.Size = new System.Drawing.Size(1183, 506);
             this.panel6.TabIndex = 63;
-            // 
-            // btnImprimir
-            // 
-            this.btnImprimir.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnImprimir.BackColor = System.Drawing.Color.White;
-            this.btnImprimir.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
-            this.btnImprimir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnImprimir.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
-            this.btnImprimir.IconChar = FontAwesome.Sharp.IconChar.Print;
-            this.btnImprimir.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
-            this.btnImprimir.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnImprimir.Location = new System.Drawing.Point(807, 508);
-            this.btnImprimir.Name = "btnImprimir";
-            this.btnImprimir.Size = new System.Drawing.Size(189, 60);
-            this.btnImprimir.TabIndex = 59;
-            this.btnImprimir.Text = "Completar la contratacion";
-            this.btnImprimir.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnImprimir.UseVisualStyleBackColor = false;
-            this.btnImprimir.Click += new System.EventHandler(this.btnImprimir_Click);
             // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.cbConfirmaInstalacion);
-            this.groupBox1.Controls.Add(this.tbAnotaciones);
+            this.groupBox1.Controls.Add(this.btnCompletar);
+            this.groupBox1.Controls.Add(this.materialMultiLineTextBox21);
             this.groupBox1.Controls.Add(this.tbDireccionCobro);
             this.groupBox1.Controls.Add(this.tbDireccionContratacion);
-            this.groupBox1.Controls.Add(this.tbNit);
-            this.groupBox1.Location = new System.Drawing.Point(228, 23);
+            this.groupBox1.Controls.Add(this.materialTextBox1);
+            this.groupBox1.Location = new System.Drawing.Point(146, 22);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(785, 443);
+            this.groupBox1.Size = new System.Drawing.Size(785, 478);
             this.groupBox1.TabIndex = 47;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Detalles del contrato";
@@ -202,33 +181,52 @@
             this.cbConfirmaInstalacion.Text = "Instalacion en la zona";
             this.cbConfirmaInstalacion.UseVisualStyleBackColor = true;
             // 
-            // tbAnotaciones
+            // btnCompletar
             // 
-            this.tbAnotaciones.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.tbAnotaciones.AnimateReadOnly = false;
-            this.tbAnotaciones.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.tbAnotaciones.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.tbAnotaciones.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.tbAnotaciones.Depth = 0;
-            this.tbAnotaciones.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbAnotaciones.HideSelection = true;
-            this.tbAnotaciones.Hint = "Anotaciones sobre el contrato";
-            this.tbAnotaciones.Location = new System.Drawing.Point(100, 304);
-            this.tbAnotaciones.MaxLength = 32767;
-            this.tbAnotaciones.MouseState = MaterialSkin.MouseState.OUT;
-            this.tbAnotaciones.Name = "tbAnotaciones";
-            this.tbAnotaciones.PasswordChar = '\0';
-            this.tbAnotaciones.ReadOnly = false;
-            this.tbAnotaciones.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
-            this.tbAnotaciones.SelectedText = "";
-            this.tbAnotaciones.SelectionLength = 0;
-            this.tbAnotaciones.SelectionStart = 0;
-            this.tbAnotaciones.ShortcutsEnabled = true;
-            this.tbAnotaciones.Size = new System.Drawing.Size(597, 80);
-            this.tbAnotaciones.TabIndex = 49;
-            this.tbAnotaciones.TabStop = false;
-            this.tbAnotaciones.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.tbAnotaciones.UseSystemPasswordChar = false;
+            this.btnCompletar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnCompletar.BackColor = System.Drawing.Color.White;
+            this.btnCompletar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
+            this.btnCompletar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCompletar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
+            this.btnCompletar.IconChar = FontAwesome.Sharp.IconChar.FileSignature;
+            this.btnCompletar.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
+            this.btnCompletar.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnCompletar.Location = new System.Drawing.Point(508, 418);
+            this.btnCompletar.Name = "btnCompletar";
+            this.btnCompletar.Size = new System.Drawing.Size(189, 60);
+            this.btnCompletar.TabIndex = 58;
+            this.btnCompletar.Text = "Completar la contratacion";
+            this.btnCompletar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnCompletar.UseVisualStyleBackColor = false;
+            this.btnCompletar.Click += new System.EventHandler(this.btnCompletar_Click);
+            // 
+            // materialMultiLineTextBox21
+            // 
+            this.materialMultiLineTextBox21.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.materialMultiLineTextBox21.AnimateReadOnly = false;
+            this.materialMultiLineTextBox21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.materialMultiLineTextBox21.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.materialMultiLineTextBox21.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.materialMultiLineTextBox21.Depth = 0;
+            this.materialMultiLineTextBox21.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.materialMultiLineTextBox21.HideSelection = true;
+            this.materialMultiLineTextBox21.Hint = "Anotaciones sobre el contrato";
+            this.materialMultiLineTextBox21.Location = new System.Drawing.Point(100, 304);
+            this.materialMultiLineTextBox21.MaxLength = 32767;
+            this.materialMultiLineTextBox21.MouseState = MaterialSkin.MouseState.OUT;
+            this.materialMultiLineTextBox21.Name = "materialMultiLineTextBox21";
+            this.materialMultiLineTextBox21.PasswordChar = '\0';
+            this.materialMultiLineTextBox21.ReadOnly = false;
+            this.materialMultiLineTextBox21.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
+            this.materialMultiLineTextBox21.SelectedText = "";
+            this.materialMultiLineTextBox21.SelectionLength = 0;
+            this.materialMultiLineTextBox21.SelectionStart = 0;
+            this.materialMultiLineTextBox21.ShortcutsEnabled = true;
+            this.materialMultiLineTextBox21.Size = new System.Drawing.Size(597, 80);
+            this.materialMultiLineTextBox21.TabIndex = 49;
+            this.materialMultiLineTextBox21.TabStop = false;
+            this.materialMultiLineTextBox21.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.materialMultiLineTextBox21.UseSystemPasswordChar = false;
             // 
             // tbDireccionCobro
             // 
@@ -286,44 +284,25 @@
             this.tbDireccionContratacion.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.tbDireccionContratacion.UseSystemPasswordChar = false;
             // 
-            // tbNit
+            // materialTextBox1
             // 
-            this.tbNit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.tbNit.AnimateReadOnly = false;
-            this.tbNit.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.tbNit.Depth = 0;
-            this.tbNit.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.tbNit.Hint = "NIT para facturacion";
-            this.tbNit.ImeMode = System.Windows.Forms.ImeMode.Off;
-            this.tbNit.LeadingIcon = null;
-            this.tbNit.Location = new System.Drawing.Point(100, 238);
-            this.tbNit.MaxLength = 3000;
-            this.tbNit.MouseState = MaterialSkin.MouseState.OUT;
-            this.tbNit.Multiline = false;
-            this.tbNit.Name = "tbNit";
-            this.tbNit.Size = new System.Drawing.Size(597, 50);
-            this.tbNit.TabIndex = 46;
-            this.tbNit.Text = "";
-            this.tbNit.TrailingIcon = null;
-            // 
-            // btnCompletar
-            // 
-            this.btnCompletar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnCompletar.BackColor = System.Drawing.Color.White;
-            this.btnCompletar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
-            this.btnCompletar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCompletar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
-            this.btnCompletar.IconChar = FontAwesome.Sharp.IconChar.FileSignature;
-            this.btnCompletar.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
-            this.btnCompletar.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnCompletar.Location = new System.Drawing.Point(1017, 508);
-            this.btnCompletar.Name = "btnCompletar";
-            this.btnCompletar.Size = new System.Drawing.Size(189, 60);
-            this.btnCompletar.TabIndex = 58;
-            this.btnCompletar.Text = "Completar la contratacion";
-            this.btnCompletar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnCompletar.UseVisualStyleBackColor = false;
-            this.btnCompletar.Click += new System.EventHandler(this.btnCompletar_Click);
+            this.materialTextBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.materialTextBox1.AnimateReadOnly = false;
+            this.materialTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.materialTextBox1.Depth = 0;
+            this.materialTextBox1.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialTextBox1.Hint = "NIT para facturacion";
+            this.materialTextBox1.ImeMode = System.Windows.Forms.ImeMode.Off;
+            this.materialTextBox1.LeadingIcon = null;
+            this.materialTextBox1.Location = new System.Drawing.Point(100, 238);
+            this.materialTextBox1.MaxLength = 3000;
+            this.materialTextBox1.MouseState = MaterialSkin.MouseState.OUT;
+            this.materialTextBox1.Multiline = false;
+            this.materialTextBox1.Name = "materialTextBox1";
+            this.materialTextBox1.Size = new System.Drawing.Size(597, 50);
+            this.materialTextBox1.TabIndex = 46;
+            this.materialTextBox1.Text = "";
+            this.materialTextBox1.TrailingIcon = null;
             // 
             // panel5
             // 
@@ -339,7 +318,7 @@
             this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel5.Location = new System.Drawing.Point(0, 826);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(1267, 420);
+            this.panel5.Size = new System.Drawing.Size(1183, 420);
             this.panel5.TabIndex = 62;
             // 
             // panelAviso
@@ -347,7 +326,7 @@
             this.panelAviso.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.panelAviso.Controls.Add(this.iconoDisponilibidad);
             this.panelAviso.Controls.Add(this.lblDisponiblidad);
-            this.panelAviso.Location = new System.Drawing.Point(919, 286);
+            this.panelAviso.Location = new System.Drawing.Point(835, 286);
             this.panelAviso.Name = "panelAviso";
             this.panelAviso.Size = new System.Drawing.Size(309, 37);
             this.panelAviso.TabIndex = 60;
@@ -394,7 +373,7 @@
             this.gridControl3.Name = "gridControl3";
             this.gridControl3.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
             this.repositoryItemButtonEdit3});
-            this.gridControl3.Size = new System.Drawing.Size(857, 348);
+            this.gridControl3.Size = new System.Drawing.Size(773, 348);
             this.gridControl3.TabIndex = 50;
             this.gridControl3.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView3});
@@ -435,10 +414,10 @@
             // repositoryItemButtonEdit3
             // 
             this.repositoryItemButtonEdit3.AutoHeight = false;
-            editorButtonImageOptions1.Image = ((System.Drawing.Image)(resources.GetObject("editorButtonImageOptions1.Image")));
-            editorButtonImageOptions1.ImageToTextAlignment = DevExpress.XtraEditors.ImageAlignToText.LeftCenter;
+            editorButtonImageOptions4.Image = ((System.Drawing.Image)(resources.GetObject("editorButtonImageOptions4.Image")));
+            editorButtonImageOptions4.ImageToTextAlignment = DevExpress.XtraEditors.ImageAlignToText.LeftCenter;
             this.repositoryItemButtonEdit3.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "Seleccionar", -1, true, true, false, editorButtonImageOptions1, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject1, serializableAppearanceObject2, serializableAppearanceObject3, serializableAppearanceObject4, "", null, null, DevExpress.Utils.ToolTipAnchor.Default)});
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "Seleccionar", -1, true, true, false, editorButtonImageOptions4, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject13, serializableAppearanceObject14, serializableAppearanceObject15, serializableAppearanceObject16, "", null, null, DevExpress.Utils.ToolTipAnchor.Default)});
             this.repositoryItemButtonEdit3.ButtonsStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple;
             this.repositoryItemButtonEdit3.Name = "repositoryItemButtonEdit3";
             this.repositoryItemButtonEdit3.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.HideTextEditor;
@@ -460,7 +439,7 @@
             this.ddlDepto.Hint = "Departamento";
             this.ddlDepto.IntegralHeight = false;
             this.ddlDepto.ItemHeight = 43;
-            this.ddlDepto.Location = new System.Drawing.Point(915, 68);
+            this.ddlDepto.Location = new System.Drawing.Point(831, 68);
             this.ddlDepto.MaxDropDownItems = 4;
             this.ddlDepto.MouseState = MaterialSkin.MouseState.OUT;
             this.ddlDepto.Name = "ddlDepto";
@@ -479,7 +458,7 @@
             this.btnProgramarInstalacion.IconChar = FontAwesome.Sharp.IconChar.ClipboardQuestion;
             this.btnProgramarInstalacion.IconColor = System.Drawing.Color.White;
             this.btnProgramarInstalacion.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnProgramarInstalacion.Location = new System.Drawing.Point(915, 329);
+            this.btnProgramarInstalacion.Location = new System.Drawing.Point(831, 329);
             this.btnProgramarInstalacion.Name = "btnProgramarInstalacion";
             this.btnProgramarInstalacion.Size = new System.Drawing.Size(313, 60);
             this.btnProgramarInstalacion.TabIndex = 57;
@@ -505,7 +484,7 @@
             this.ddlMuni.Hint = "Municipio";
             this.ddlMuni.IntegralHeight = false;
             this.ddlMuni.ItemHeight = 43;
-            this.ddlMuni.Location = new System.Drawing.Point(915, 132);
+            this.ddlMuni.Location = new System.Drawing.Point(831, 132);
             this.ddlMuni.MaxDropDownItems = 4;
             this.ddlMuni.MouseState = MaterialSkin.MouseState.OUT;
             this.ddlMuni.Name = "ddlMuni";
@@ -525,7 +504,7 @@
             this.tbNombreZona.Hint = "Nombre de la zona";
             this.tbNombreZona.ImeMode = System.Windows.Forms.ImeMode.Off;
             this.tbNombreZona.LeadingIcon = null;
-            this.tbNombreZona.Location = new System.Drawing.Point(915, 230);
+            this.tbNombreZona.Location = new System.Drawing.Point(831, 230);
             this.tbNombreZona.MaxLength = 100;
             this.tbNombreZona.MouseState = MaterialSkin.MouseState.OUT;
             this.tbNombreZona.Multiline = false;
@@ -539,7 +518,7 @@
             // 
             this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(911, 195);
+            this.label4.Location = new System.Drawing.Point(827, 195);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(131, 20);
             this.label4.TabIndex = 55;
@@ -568,7 +547,7 @@
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel4.Location = new System.Drawing.Point(0, 384);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1267, 442);
+            this.panel4.Size = new System.Drawing.Size(1183, 442);
             this.panel4.TabIndex = 61;
             // 
             // tbDuracionContrato
@@ -583,7 +562,7 @@
             this.tbDuracionContrato.HideSelection = true;
             this.tbDuracionContrato.Hint = "Duracion del Contrato";
             this.tbDuracionContrato.LeadingIcon = null;
-            this.tbDuracionContrato.Location = new System.Drawing.Point(915, 372);
+            this.tbDuracionContrato.Location = new System.Drawing.Point(831, 372);
             this.tbDuracionContrato.MaxLength = 32767;
             this.tbDuracionContrato.MouseState = MaterialSkin.MouseState.OUT;
             this.tbDuracionContrato.Name = "tbDuracionContrato";
@@ -615,7 +594,7 @@
             this.tbCostoInstalacion.HideSelection = true;
             this.tbCostoInstalacion.Hint = "Costo Instalacion";
             this.tbCostoInstalacion.LeadingIcon = null;
-            this.tbCostoInstalacion.Location = new System.Drawing.Point(915, 306);
+            this.tbCostoInstalacion.Location = new System.Drawing.Point(831, 306);
             this.tbCostoInstalacion.MaxLength = 32767;
             this.tbCostoInstalacion.MouseState = MaterialSkin.MouseState.OUT;
             this.tbCostoInstalacion.Name = "tbCostoInstalacion";
@@ -647,7 +626,7 @@
             this.tbCostoMensual.HideSelection = true;
             this.tbCostoMensual.Hint = "Costo Mensual";
             this.tbCostoMensual.LeadingIcon = null;
-            this.tbCostoMensual.Location = new System.Drawing.Point(915, 243);
+            this.tbCostoMensual.Location = new System.Drawing.Point(831, 243);
             this.tbCostoMensual.MaxLength = 32767;
             this.tbCostoMensual.MouseState = MaterialSkin.MouseState.OUT;
             this.tbCostoMensual.Name = "tbCostoMensual";
@@ -685,7 +664,7 @@
             this.gridControl2.Name = "gridControl2";
             this.gridControl2.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
             this.repositoryItemButtonEdit2});
-            this.gridControl2.Size = new System.Drawing.Size(859, 377);
+            this.gridControl2.Size = new System.Drawing.Size(775, 377);
             this.gridControl2.TabIndex = 43;
             this.gridControl2.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView2});
@@ -766,10 +745,10 @@
             // repositoryItemButtonEdit2
             // 
             this.repositoryItemButtonEdit2.AutoHeight = false;
-            editorButtonImageOptions2.Image = ((System.Drawing.Image)(resources.GetObject("editorButtonImageOptions2.Image")));
-            editorButtonImageOptions2.Location = DevExpress.XtraEditors.ImageLocation.MiddleLeft;
+            editorButtonImageOptions5.Image = ((System.Drawing.Image)(resources.GetObject("editorButtonImageOptions5.Image")));
+            editorButtonImageOptions5.Location = DevExpress.XtraEditors.ImageLocation.MiddleLeft;
             this.repositoryItemButtonEdit2.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "Seleccionar", -1, true, true, false, editorButtonImageOptions2, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject5, serializableAppearanceObject6, serializableAppearanceObject7, serializableAppearanceObject8, "", null, null, DevExpress.Utils.ToolTipAnchor.Default)});
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "Seleccionar", -1, true, true, false, editorButtonImageOptions5, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject17, serializableAppearanceObject18, serializableAppearanceObject19, serializableAppearanceObject20, "", null, null, DevExpress.Utils.ToolTipAnchor.Default)});
             this.repositoryItemButtonEdit2.ButtonsStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple;
             this.repositoryItemButtonEdit2.Name = "repositoryItemButtonEdit2";
             this.repositoryItemButtonEdit2.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.HideTextEditor;
@@ -786,7 +765,7 @@
             this.tbNombrePlan.Hint = "Nombre del Plan";
             this.tbNombrePlan.ImeMode = System.Windows.Forms.ImeMode.Off;
             this.tbNombrePlan.LeadingIcon = null;
-            this.tbNombrePlan.Location = new System.Drawing.Point(915, 71);
+            this.tbNombrePlan.Location = new System.Drawing.Point(831, 71);
             this.tbNombrePlan.MaxLength = 3000;
             this.tbNombrePlan.MouseState = MaterialSkin.MouseState.OUT;
             this.tbNombrePlan.Multiline = false;
@@ -808,7 +787,7 @@
             this.tbDescripcionPlan.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbDescripcionPlan.HideSelection = true;
             this.tbDescripcionPlan.Hint = "Descripcion del Plan";
-            this.tbDescripcionPlan.Location = new System.Drawing.Point(915, 127);
+            this.tbDescripcionPlan.Location = new System.Drawing.Point(831, 127);
             this.tbDescripcionPlan.MaxLength = 32767;
             this.tbDescripcionPlan.MouseState = MaterialSkin.MouseState.OUT;
             this.tbDescripcionPlan.Name = "tbDescripcionPlan";
@@ -847,7 +826,7 @@
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Location = new System.Drawing.Point(0, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1267, 384);
+            this.panel3.Size = new System.Drawing.Size(1183, 384);
             this.panel3.TabIndex = 60;
             // 
             // label3
@@ -868,7 +847,7 @@
             this.gridControl1.Name = "gridControl1";
             this.gridControl1.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
             this.repositoryItemButtonEdit1});
-            this.gridControl1.Size = new System.Drawing.Size(868, 328);
+            this.gridControl1.Size = new System.Drawing.Size(784, 328);
             this.gridControl1.TabIndex = 8;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -955,12 +934,12 @@
             // 
             this.repositoryItemButtonEdit1.AutoHeight = false;
             this.repositoryItemButtonEdit1.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            editorButtonImageOptions3.Image = ((System.Drawing.Image)(resources.GetObject("editorButtonImageOptions3.Image")));
-            editorButtonImageOptions3.ImageToTextAlignment = DevExpress.XtraEditors.ImageAlignToText.LeftCenter;
-            serializableAppearanceObject9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            serializableAppearanceObject9.Options.UseBackColor = true;
+            editorButtonImageOptions6.Image = ((System.Drawing.Image)(resources.GetObject("editorButtonImageOptions6.Image")));
+            editorButtonImageOptions6.ImageToTextAlignment = DevExpress.XtraEditors.ImageAlignToText.LeftCenter;
+            serializableAppearanceObject21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            serializableAppearanceObject21.Options.UseBackColor = true;
             this.repositoryItemButtonEdit1.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "Seleccionar", -1, true, true, false, editorButtonImageOptions3, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject9, serializableAppearanceObject10, serializableAppearanceObject11, serializableAppearanceObject12, "", null, null, DevExpress.Utils.ToolTipAnchor.Default)});
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "Seleccionar", -1, true, true, false, editorButtonImageOptions6, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject21, serializableAppearanceObject22, serializableAppearanceObject23, serializableAppearanceObject24, "", null, null, DevExpress.Utils.ToolTipAnchor.Default)});
             this.repositoryItemButtonEdit1.ButtonsStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple;
             this.repositoryItemButtonEdit1.Name = "repositoryItemButtonEdit1";
             this.repositoryItemButtonEdit1.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.HideTextEditor;
@@ -977,7 +956,7 @@
             this.tbNombre.Hint = "Nombres";
             this.tbNombre.ImeMode = System.Windows.Forms.ImeMode.On;
             this.tbNombre.LeadingIcon = null;
-            this.tbNombre.Location = new System.Drawing.Point(919, 111);
+            this.tbNombre.Location = new System.Drawing.Point(835, 111);
             this.tbNombre.MaxLength = 200;
             this.tbNombre.MouseState = MaterialSkin.MouseState.OUT;
             this.tbNombre.Multiline = false;
@@ -998,7 +977,7 @@
             this.tbApellido.Hint = "Apellidos";
             this.tbApellido.ImeMode = System.Windows.Forms.ImeMode.On;
             this.tbApellido.LeadingIcon = null;
-            this.tbApellido.Location = new System.Drawing.Point(919, 177);
+            this.tbApellido.Location = new System.Drawing.Point(835, 177);
             this.tbApellido.MaxLength = 200;
             this.tbApellido.MouseState = MaterialSkin.MouseState.OUT;
             this.tbApellido.Multiline = false;
@@ -1019,7 +998,7 @@
             this.tbTel1.Hint = "Telefono Celular";
             this.tbTel1.ImeMode = System.Windows.Forms.ImeMode.Off;
             this.tbTel1.LeadingIcon = null;
-            this.tbTel1.Location = new System.Drawing.Point(919, 242);
+            this.tbTel1.Location = new System.Drawing.Point(835, 242);
             this.tbTel1.MaxLength = 8;
             this.tbTel1.MouseState = MaterialSkin.MouseState.OUT;
             this.tbTel1.Multiline = false;
@@ -1040,7 +1019,7 @@
             this.tbCorreo.Hint = "Correo Electrónico";
             this.tbCorreo.ImeMode = System.Windows.Forms.ImeMode.On;
             this.tbCorreo.LeadingIcon = null;
-            this.tbCorreo.Location = new System.Drawing.Point(919, 308);
+            this.tbCorreo.Location = new System.Drawing.Point(835, 308);
             this.tbCorreo.MaxLength = 100;
             this.tbCorreo.MouseState = MaterialSkin.MouseState.OUT;
             this.tbCorreo.Multiline = false;
@@ -1061,7 +1040,7 @@
             this.tbDpi.Hint = "DPI";
             this.tbDpi.ImeMode = System.Windows.Forms.ImeMode.Off;
             this.tbDpi.LeadingIcon = null;
-            this.tbDpi.Location = new System.Drawing.Point(919, 45);
+            this.tbDpi.Location = new System.Drawing.Point(835, 45);
             this.tbDpi.MaxLength = 13;
             this.tbDpi.MouseState = MaterialSkin.MouseState.OUT;
             this.tbDpi.Multiline = false;
@@ -1074,9 +1053,9 @@
             // panel2
             // 
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 1842);
+            this.panel2.Location = new System.Drawing.Point(0, 1752);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1267, 32);
+            this.panel2.Size = new System.Drawing.Size(1183, 32);
             this.panel2.TabIndex = 14;
             // 
             // label1
@@ -1092,7 +1071,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1284, 1005);
+            this.ClientSize = new System.Drawing.Size(1500, 1256);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -1163,8 +1142,8 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private MaterialSkin.Controls.MaterialMultiLineTextBox2 tbDireccionCobro;
         private MaterialSkin.Controls.MaterialMultiLineTextBox2 tbDireccionContratacion;
-        private MaterialSkin.Controls.MaterialTextBox tbNit;
-        private MaterialSkin.Controls.MaterialMultiLineTextBox2 tbAnotaciones;
+        private MaterialSkin.Controls.MaterialTextBox materialTextBox1;
+        private MaterialSkin.Controls.MaterialMultiLineTextBox2 materialMultiLineTextBox21;
         private System.Windows.Forms.Label lblCodigoZona;
         private System.Windows.Forms.Label label4;
         private MaterialSkin.Controls.MaterialTextBox tbNombreZona;
@@ -1191,6 +1170,5 @@
         private System.Windows.Forms.Label label3;
         private FontAwesome.Sharp.IconButton btnCompletar;
         private MaterialSkin.Controls.MaterialCheckbox cbConfirmaInstalacion;
-        private FontAwesome.Sharp.IconButton btnImprimir;
     }
 }

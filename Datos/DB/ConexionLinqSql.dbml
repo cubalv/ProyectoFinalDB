@@ -181,6 +181,7 @@
       <Column Name="fecha_creacion" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
       <Column Name="concepto_mision" Type="System.String" DbType="VarChar(500) NOT NULL" CanBeNull="false" />
       <Column Name="fecha_programada" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="hora_programada" Type="System.String" DbType="NVarChar(5) NOT NULL" CanBeNull="false" />
       <Column Name="estado_mision" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
       <Column Name="id_solicitudes_de_contrato" Type="System.Int32" DbType="Int" CanBeNull="true" />
       <Column Name="estado_asignacion" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />

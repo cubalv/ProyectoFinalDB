@@ -16,13 +16,5 @@ namespace Negociacion
         {
             return LeerContratos.verificarDisponibilidadZona(codigoZona,codigoPlan);
         }
-        public bool guardarContratoNuevoConInstalacionZona(string dpi, int codigoPlan, int codigoZona, string direccionInstalacion, string direccionCobro, string nit, string detallesContrato, decimal precioMensual, decimal precioInstalacion)
-        {
-            return guardarContratoNuevoConInstalacionZona(dpi,codigoPlan,codigoZona,direccionInstalacion,direccionCobro,nit,detallesContrato,precioMensual,precioInstalacion);
-        }
-        public bool guardarContratoNuevo(string dpi, int codigoPlan, int codigoZona, string direccionInstalacion, string direccionCobro, string nit, string detallesContrato, decimal precioMensual, decimal precioInstalacion)
-        {
-            return guardarContratoNuevo(dpi, codigoPlan, codigoZona, direccionInstalacion, direccionCobro, nit, detallesContrato, precioMensual, precioInstalacion);
-        }
     }
 }

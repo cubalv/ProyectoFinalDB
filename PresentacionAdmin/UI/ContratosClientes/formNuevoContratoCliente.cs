@@ -39,13 +39,7 @@ namespace PresentacionAdmin.UI.ContratosClientes
         }
         private bool verificarDatosLLenos()
         {
-
-            bool DireccionContratacion = tbDireccionContratacion.Text.Length > 0;
-            bool DireccionCobro = tbDireccionCobro.Text.Length > 0;
-            bool NIT = tbNit.Text.Length > 0;
-            bool Notas = tbAnotaciones.Text.Length > 0;
-
-            if (tbDpi.Text != "" && lblCodigoPlan.Text.StartsWith("label") && lblCodigoZona.Text.StartsWith("label") && DireccionContratacion && DireccionCobro && NIT && Notas)
+            if(tbDpi.Text!="" && lblCodigoPlan.Text.StartsWith("label") && lblCodigoZona.Text.StartsWith("label"))
             {
                 return true;
             }
@@ -170,32 +164,7 @@ namespace PresentacionAdmin.UI.ContratosClientes
 
         private void btnCompletar_Click(object sender, EventArgs e)
         {
-            if (verificarDatosLLenos())
-            {
-                string DireccionContratacion = tbDireccionContratacion.Text;
-                string DireccionCobro = tbDireccionCobro.Text;
-                string NIT = tbNit.Text;
-                string Notas = tbAnotaciones.Text;
-                string dpi = tbDpi.Text;
-                int idPlan = Convert.ToInt32(lblCodigoPlan.Text);
-                int idZona = Convert.ToInt32(lblCodigoZona.Text);
-                decimal precioMensual = Convert.ToDecimal(tbCostoMensual.Text);
-                decimal precioInstalacion = Convert.ToDecimal(tbCostoInstalacion.Text);
-                if (cbConfirmaInstalacion.Checked)
-                {
-                    Contratos.guardarContratoNuevo(dpi,idPlan,idZona, DireccionContratacion, DireccionCobro,NIT,Notas,precioMensual,precioInstalacion);
-                }
-                else
-                {
 
-                }
-            }
-        }
-
-        private void btnImprimir_Click(object sender, EventArgs e)
-        {
-            Reportes.contratoNuevoCliente.ContratoClienteViewer NuevoContrato = new Reportes.contratoNuevoCliente.ContratoClienteViewer();
-            NuevoContrato.ShowDialog();
         }
     }
 }

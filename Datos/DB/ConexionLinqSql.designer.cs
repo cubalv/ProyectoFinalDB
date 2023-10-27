@@ -3746,6 +3746,8 @@ namespace Datos.DB
 		
 		private System.DateTime _fecha_programada;
 		
+		private string _hora_programada;
+		
 		private bool _estado_mision;
 		
 		private System.Nullable<int> _id_solicitudes_de_contrato;
@@ -3764,6 +3766,8 @@ namespace Datos.DB
     partial void Onconcepto_misionChanged();
     partial void Onfecha_programadaChanging(System.DateTime value);
     partial void Onfecha_programadaChanged();
+    partial void Onhora_programadaChanging(string value);
+    partial void Onhora_programadaChanged();
     partial void Onestado_misionChanging(bool value);
     partial void Onestado_misionChanged();
     partial void Onid_solicitudes_de_contratoChanging(System.Nullable<int> value);
@@ -3853,6 +3857,26 @@ namespace Datos.DB
 					this._fecha_programada = value;
 					this.SendPropertyChanged("fecha_programada");
 					this.Onfecha_programadaChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_hora_programada", DbType="NVarChar(5) NOT NULL", CanBeNull=false)]
+		public string hora_programada
+		{
+			get
+			{
+				return this._hora_programada;
+			}
+			set
+			{
+				if ((this._hora_programada != value))
+				{
+					this.Onhora_programadaChanging(value);
+					this.SendPropertyChanging();
+					this._hora_programada = value;
+					this.SendPropertyChanged("hora_programada");
+					this.Onhora_programadaChanged();
 				}
 			}
 		}
